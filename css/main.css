@@ -118,7 +118,7 @@ h3 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   margin: 20px auto 10px 30px;
-  padding: 40px 30px 10px 15px;
+  padding: 40px 0 10px 15px;
 }
 .benefits p {
   font-family: "Open Sans", sans-serif;
@@ -219,6 +219,44 @@ footer p {
   justify-content: center;
   padding: 20px 0 20px 0;
 }
+
+
+@media (max-width: 500px) {
+  #container {
+    height: 300px;
+  }
+  header h1 {
+
+  }
+  h2 {
+    font-size: 20px;
+  }
+  header button {
+    margin-top: 40px;
+  }
+  .benefits {
+    height: 300px;
+  }
+  h3 {
+    margin: 10px auto 10px 10px;
+    padding: 20px 0 10px 15px;
+  }
+  .benefits p {
+    font-size: 13px;
+    padding: 0 0 10px 25px;
+    width: 300px;
+    margin-left: 15px;
+  }
+  ul {
+  font-size: 12px;
+  padding: 0 0 30px 30px;
+  width: 250px;
+  margin-left: 35px;
+  }
+}
+
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
