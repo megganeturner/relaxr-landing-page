@@ -45,12 +45,12 @@ Developer @GA in NYC
 /* BASE STYLES
 /*******************************************/
 
+
 body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
      background-size: cover;
 }
 
@@ -60,61 +60,120 @@ body {
 /*******************************************/
 
 /* Center the container */
+
+header {
+  margin: -20px;
+}
+
+
 #container {
   width: 100%;
   margin: auto;
-  height: 500px;
+  height: 550px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+
+}
+header h1 {
+  color: #FFFFFF;
+  display: flex;
+  justify-content: flex-start;
+  padding: 50px 0 20px 30px;
+  margin-left: 30px;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #FFFFFF;
 }
 header button {
   display: flex;
   justify-content: center;
   margin: 80px auto 80px auto;
   align-item: center;
-  color: #101038;
-  background-color: #FFFF30;
+  color: #033048;
+  background-color: #f9e42e;
   border: 0px;
   width: 150px;
-  border-radius: 3px;
+  border-radius: 5px;
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
-  font-size: 18px;
-  padding: 20px auto 20px auto;
-}
-h1 {
-  color: #FFFFFF;
-  display: flex;
-  justify-content: flex-start;
-  margin-left: 30px;
-  font-size: 30px;
-}
-h2 {
-  display: flex;
-  justify-content: center;
-  font-family: helvetica;
-  font-size: 30px;
-  font-weight: normal;
-  color: #FFFFFF;
+  font-size: 14px;
+  padding: 10px 0 10px 0;
 }
 .benefits {
-  background-color: #EDEDED;
+  background-color: #f0efef;
+  margin-bottom: 0;
+  height: 350px;
 }
 h3 {
   color: #101038;
-  font-size: 25px;
-  margin: 20px auto 10px 15px;
-  padding: 20px 10px 10px 15px;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin: 20px auto 10px 30px;
+  padding: 40px 30px 10px 15px;
+}
+.benefits p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: #7D7D7D;
+  padding: 0 auto 50px 30px;
+  width: 380px;
+  margin-left: 55px;
+
+}
+ul {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  color: #7D7D7D;
+  padding: 0 0 30px 30px;
+  width: 400px;
+  margin-left: 60px;
 }
 .quote {
   background: url(../images/testimonial_bg.jpg);
+  height: 250px;
+}
+blockquote p {
+  font-family: "Open Sans", sans-serif;
+  margin: 62.5px auto;
+  font-style: italic;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 300;
+  width: 300px;
+  text-align: center;
+}
+.amanda {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  font-style: normal;
+}
+blockquote {
+  margin: -15px auto;
+  display: flex;
+  align-items: center;
+
 }
 .cta {
-  background-color: #FFFF30;
+  background-color: #f9e42e;
   padding: 10px;
 }
 .cta button {
-  background-color: #101038;
-  color: white;
-  font-size: 15px;
-  font-weight: bold;
+  background-color: #033048;
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 800;
   border: 0px;
   width: 180px;
   border-radius: 5.4px;
@@ -123,30 +182,42 @@ h3 {
   justify-content: center;
   margin: 15px auto 15px auto;
 }
-p {
-  font-family: helvetica;
-  font-size: 15px;
-  color: #7D7D7D;
-  padding: 0 auto 30px 30px;
-  width: 50%;
-  margin-left: 30px;
 
-}
-ul {
-  font-family: helvetica;
-  font-size: 15px;
-  color: #7D7D7D;
-  padding: 0 0 30px 30px;
-  width: 50%;
-  margin-left: 30px;
-}
 
-header {
-  
-}
+
 
 footer {
-  background-color: black;
+  background-color: #121212;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 9px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: #ffffff;
+  margin: 0 auto;
+}
+footer img {
+  height: 50px;
+  padding: 15px;
+}
+footer > h1 {
+  color:#f9e42e;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+}
+footer p {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 20px 0;
 }
 
 /******************************************
