@@ -71,7 +71,7 @@ header {
   margin: auto;
   height: 550px;
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-  background-size: cover;
+  background-size: 100% 100%;
 
 }
 header h1 {
