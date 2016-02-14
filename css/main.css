@@ -67,9 +67,9 @@ header {
 
 
 #container {
-  width: 100%;
+  width: 100vw;
   margin: auto;
-  height: 550px;
+  height: 100vh;
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: 100% 100%;
 
