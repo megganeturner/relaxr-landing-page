@@ -54,7 +54,10 @@ body {
      background-size: cover;
 }
 
-
+body .blog {
+  background-color: #606161;
+  width: 100vw;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -62,17 +65,52 @@ body {
 /* Center the container */
 
 header {
-  margin: -20px;
+  margin-top: -20px;
+  margin-bottom: -20px;
 }
 
 
 #container {
   width: 100vw;
   margin: auto;
-  height: 100vh;
+  height: 101vh;
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: 100% 100%;
 
+}
+#container nav {
+  float: right;
+  padding: 25px;
+}
+#container a {
+  font-family: "Open Sans", sans-serif;
+  padding: 5px;
+  text-decoration: none;
+  color: #f9e42e;
+
+}
+.blog header {
+  height: 80px;
+  background-color: #033048;
+}
+.blog header h1 {
+  float: left;
+  margin-top: 30px;
+  margin-left: 40px;
+  padding: 0;
+}
+.blog header h1 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.blog nav {
+  float: right;
+  margin: 40px;
+}
+.blog nav a {
+  text-decoration: none;
+  padding: 15px;
+  color: #f9e42e;
 }
 header h1 {
   color: #FFFFFF;
@@ -167,6 +205,7 @@ blockquote {
 .cta {
   background-color: #f9e42e;
   padding: 10px;
+  clear: both;
 }
 .cta button {
   background-color: #033048;
@@ -219,6 +258,25 @@ footer p {
   justify-content: center;
   padding: 20px 0 20px 0;
 }
+
+
+
+.blog img {
+  width:100%;
+}
+.content {
+  float: left;
+  width: 60%;
+  margin-left: 50px;
+}
+aside {
+  width: 30%;
+  float: right;
+  margin-right: 0;
+}
+.post h3 {
+  margin: 0;
+ }
 
 
 @media (max-width: 500px) {
