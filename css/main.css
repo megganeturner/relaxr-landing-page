@@ -68,7 +68,9 @@ header {
   margin-top: -20px;
   margin-bottom: -20px;
 }
-
+a {
+  text-decoration: none;
+}
 
 #container {
   width: 100vw;
@@ -267,6 +269,8 @@ footer p {
 }
 .post img {
   width:100%;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 .post h3 {
   margin: 0;
@@ -291,7 +295,7 @@ footer p {
 aside {
   width: 240px;
   float: left;
-  margin-left: 20px;
+  margin: 50px 0 0 20px;
 }
 aside p {
   font-family: "Open Sans", sans-serif;
@@ -309,7 +313,32 @@ aside li {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-size: 24px;
+  list-style-type: none;
+  margin-left: -20px;
 }
+aside img {
+  margin-top: 40px;
+}
+aside ul {
+  margin-left: 0;
+}
+a .more {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #033048;
+}
+aside .more {
+  font-size: 22px;
+  padding: 0;
+}
+.post .more {
+  font-size: 24px;
+  padding: 40px 0 10px 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
 
 
 
