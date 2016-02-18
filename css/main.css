@@ -80,10 +80,6 @@ a {
   background-size: 100% 100%;
 
 }
-#container nav {
-  float: right;
-  padding: 25px;
-}
 #container a {
   font-family: "Open Sans", sans-serif;
   padding: 5px;
@@ -104,15 +100,6 @@ a {
 .blog header h1 a {
   text-decoration: none;
   color: #ffffff;
-}
-.blog nav {
-  float: right;
-  margin: 40px;
-}
-.blog nav a {
-  text-decoration: none;
-  padding: 15px;
-  color: #f9e42e;
 }
 header h1 {
   color: #FFFFFF;
@@ -169,15 +156,7 @@ h3 {
   margin-left: 55px;
 
 }
-ul {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
-  font-size: 13px;
-  color: #7D7D7D;
-  padding: 0 0 30px 30px;
-  width: 400px;
-  margin-left: 60px;
-}
+
 .quote {
   background: url(../images/testimonial_bg.jpg);
   height: 250px;
@@ -262,6 +241,22 @@ footer p {
 }
 
 
+
+header nav a {
+  color: #f9e42e;
+  padding: 15px;
+}
+header nav ul {
+  float: right;
+  display: inline;
+  list-style-type: none;
+}
+header li {
+  display: inline;
+}
+.blog ul {
+  margin-top: 40px;
+}
 .content {
   float: left;
   width: 700px;
@@ -376,7 +371,9 @@ aside .more {
   }
 }
 
+@media (max-width: 1060px) {
 
+}
 
 
 /******************************************
