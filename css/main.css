@@ -337,7 +337,7 @@ aside .more {
 
 
 
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
   #container {
     height: 300px;
   }
@@ -366,12 +366,62 @@ aside .more {
   ul {
   font-size: 12px;
   padding: 0 0 30px 30px;
-  width: 250px;
   margin-left: 35px;
   }
 }
 
 @media (max-width: 1060px) {
+  .content {
+    width: 60%;
+    margin-left: 25px;
+  }
+  .content h3 {
+    font-size: 25px;
+  }
+  .content p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  aside {
+    width: 20%;
+  }
+  aside h3 {
+    font-size: 18px;
+  }
+  .blog ul {
+    margin-top: 10px;
+  }
+  aside li {
+    font-size: 14px;
+
+  }
+  aside img {
+    width: 100px;
+  }
+  .blog nav ul {
+    margin: 40px 0 0 0;
+    padding-left: 0;
+  }
+  aside p {
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+  aside .more {
+    font-size: 14px;
+  }
+  .post .more {
+    padding: 5px 0 0 0;
+    font-size: 14px;
+  }
+  .post {
+    padding: 10px 0;
+  }
+  .blog header h1 {
+    margin-left: 10px;
+  }
+  .blog header li {
+    padding: 5px;
+  }
 
 }
 
